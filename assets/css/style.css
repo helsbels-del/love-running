@@ -70,19 +70,27 @@ nav {
 
 #nav-toggle {
     display: none;
+    
 }
 
-.nav-togle-label {
+.nav-toggle-label {
     font-size: 2rem;
+    list-style-type: none;
 }
 
 /*Main content*/
 main {
-    background-color: lightblue;
-    /* Make main element take up any surlus space to push footer down */
+       /* Make main element take up any surlus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-}/*Footer*/
+}
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../Images/hero-image.webp") no-repeat center center/cover;
+}
+/*Footer*/
 #social-networks {
     text-align:center;
     padding: 20px 0;
